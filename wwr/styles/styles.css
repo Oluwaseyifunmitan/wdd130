@@ -1,21 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,500&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 #content {
   max-width: 1600px;
   margin: 0 auto;
 }
 nav a {
   text-align: center;
-  color:  #FEFCFB;
+  color: #fefcfb;
   text-decoration: none;
 }
-.logo{
-    width:80px;
+.logo {
+  width: 80px;
 }
 #hero-msg h1,
 #hero-msg h4 {
   text-align: center;
 }
-#hero-img{
-    width: 100%
+#hero-img {
+  width: 100%;
 }
 .button-box {
   text-align: center;
@@ -32,24 +33,23 @@ body {
 header {
   background-color: #1282a2;
 }
-.icon{
-    width:80px
+.icon {
+  width: 80px;
 }
 nav a:hover {
   background-color: #034078;
-  color:#FEFCFB;
+  color: #fefcfb;
 }
 .book,
 .join {
   background-color: #034078;
-  color:#FEFCFB;
+  color: #fefcfb;
   text-decoration: none;
 }
 .book:hover,
 .join:hover {
   background-color: #034078;
-  color:#FEFCFB;
-  
+  color: #fefcfb;
 }
 #background {
   background-color: #0a1128;
@@ -57,32 +57,34 @@ nav a:hover {
 .msg {
   background-color: #1282a2;
 }
-.home-title{
-    color:#0a1128;
+.home-title {
+  color: #0a1128;
+  /* font-family: Poppins, Arial, sans-serif; */
 }
-h4{
-    color:#0a1128;
+h4 {
+  color: #0a1128;
 }
-.msg h2{
-    color: #0a1128;
+.msg h2 {
+  color: #0a1128;
+  /* font-family: Poppins, Arial, sans-serif; */
 }
-.msg p{
-    color:#FEFCFB;
+.msg p {
+  color: #fefcfb;
 }
 footer {
   background-color: #1282a2;
-  color:#FEFCFB;
+  color: #fefcfb;
 }
 footer p {
-    font-size: 1.2em;
-}  
-footer p a:hover {
-    text-decoration: underline;
-}   
-footer a{
-    color:#FEFCFB;
-    text-decoration: none;
+  font-size: 1.2em;
 }
-footer a:hover{
-color: #034078;
+footer p a:hover {
+  text-decoration: underline;
+}
+footer a {
+  color: #fefcfb;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #034078;
 }

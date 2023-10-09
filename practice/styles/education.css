@@ -1,0 +1,32 @@
+.heading {
+  color: white;
+  text-align: center;
+}
+#container {
+  background-color: #f0a5c9;
+}
+.list {
+  width: 35%;
+  margin: 0 auto;
+  line-height: 25px;
+}
+img {
+  width:60%;
+  
+}
+/* img:hover{
+
+
+} */
+.pic{
+    width:20%;
+    margin: 0 44%;
+}
+.quote {
+  color: white;
+  text-align: center;
+  line-height: 35px;
+}
+.foot {
+  text-align: center;
+}
