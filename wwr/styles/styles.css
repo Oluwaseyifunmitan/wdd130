@@ -3,14 +3,26 @@
   max-width: 1600px;
   margin: 0 auto;
 }
-nav a {
-  text-align: center;
-  color: #fefcfb;
-  text-decoration: none;
+body {
+  background-color: #fefcfb;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 .logo {
   width: 80px;
 }
+#logo_link {
+  padding-top: 5px;
+}
+nav a {
+  text-align: center;
+  color: #fefcfb;
+  text-decoration: none;
+  padding: 35px;
+}
+
 #hero-msg h1,
 #hero-msg h4 {
   text-align: center;
@@ -25,16 +37,19 @@ main section {
   text-align: center;
 }
 #background {
+  background-color: #0a1128;
   height: 725px;
 }
-body {
-  background-color: #fefcfb;
+
+h2 {
+  margin: 0;
 }
 header {
   background-color: #1282a2;
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 nav a:hover {
   background-color: #034078;
@@ -45,35 +60,59 @@ nav a:hover {
   background-color: #034078;
   color: #fefcfb;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover,
 .join:hover {
-  background-color: #034078;
+  background-color: #0a1128;
   color: #fefcfb;
 }
-#background {
-  background-color: #0a1128;
+.card-img {
+  border: 10px solid #0a1128;
 }
-.msg {
-  background-color: #1282a2;
-}
+
 .home-title {
   color: #0a1128;
-  /* font-family: Poppins, Arial, sans-serif; */
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+main section img {
+  box-sizing: border-box;
 }
 h4 {
   color: #0a1128;
 }
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+}
+.mountains {
+  margin: 100px 0 200px 0;
+}
+.msg {
+  background-color: #1282a2;
+  line-height: 1.5em;
+  padding: 35px;
+}
 .msg h2 {
   color: #0a1128;
-  /* font-family: Poppins, Arial, sans-serif; */
+  font-family: Poppins, Arial, sans-serif;
 }
 .msg p {
   color: #fefcfb;
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 footer {
   background-color: #1282a2;
   color: #fefcfb;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 footer p {
   font-size: 1.2em;
@@ -87,4 +126,7 @@ footer a {
 }
 footer a:hover {
   color: #034078;
+}
+footer .social img {
+  padding-top: 15px;
 }
