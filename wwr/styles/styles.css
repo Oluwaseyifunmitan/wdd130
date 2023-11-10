@@ -300,7 +300,7 @@ footer .social img {
   footer {
     margin-top: 25px;
   }
-  /* faq css styles */
+  /* faq css styles media query*/
   .faq {
     display: flex;
     flex-direction: column;
