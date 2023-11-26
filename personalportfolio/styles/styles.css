@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap");
+
+:root {
+  font-size: 62.5%;
+  /* change the values below to your colors from your palette */
+  --primary-color: #219ebc;
+  --secondary-color: #023047;
+  --accent1-color: #ffb703;
+  --accent2-color: #8ecae6;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "League Spartan";
+  --paragraph-font: "Playfair Display";
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #023047; /* headlines on a white background */
+  --headline-color-on-color: #8ecae6; /* headlines on a colored background */
+  --paragraph-color-on-white: #023047; /* paragraph text on a white background */
+  --paragraph-color-on-color: #8ecae6; /* paragraph text on a colored background */
+  --paragraph-background-color: #023047;
+  --nav-link-color: #023047;
+  --nav-background-color: #ffb703;
+  --nav-hover-link-color: #8ecae6;
+  --nav-hover-background-color: #023047;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  background-color: var(--accent2-color);
+  line-height: 1.7;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(min-content, 18rem));
+  grid-template-rows: min-content;
+}
+.container > * {
+  font-size: 2rem;
+}
+header {
+  grid-column: 1/11;
+}
+.header-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: min-content;
+  padding: 2rem;
+  place-items: center;
+}
+nav {
+  border: #023047 solid 2px;
+  border-radius: 5px;
+  padding: 1rem;
+  padding-right: 2rem;
+}
+nav .nav-link {
+  color: #023047;
+}
+.nav-link {
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+.nav-link:hover {
+  background-color: var(--accent1-color);
+}
+
+.logo-img {
+  max-width: 80px;
+}
+.icon-img {
+  max-width: 30px;
+  padding: 1rem;
+}
+.hero-image {
+  max-width: 200px;
+  max-height: 300px;
+}
+main {
+  grid-column: 2/9;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  grid-template-rows: min-content;
+  place-items: center;
+  padding: 5rem;
+  /* margin-left: 10rem; */
+  font-size: 1.75rem;
+}
+.hero-text {
+  padding-right: 5rem;
+  margin: 2rem;
+  /* margin-right: 5rem; */
+}
+.hero-text h1 {
+  font-family: var(--heading-font);
+  font-size: 2em;
+}
+.hero-img {
+  margin-right: 15rem;
+}
+.entire-card {
+  padding: 5rem;
+}
+.entire-card h2 {
+  padding-left: 2rem;
+  font-family: var(--heading-font);
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: min-content;
+  padding: 0 2rem;
+  margin-bottom: 10rem;
+  place-items: center;
+  border: #023047 solid 2px;
+  font-size: 1.75rem;
+}
+.card {
+  padding: 2rem;
+}
+.card h3 {
+  font-family: var(--heading-font);
+}
+footer {
+  grid-column: 1/11;
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr 4fr;
+  grid-template-rows: min-content;
+  background-color: var(--secondary-color);
+  place-items: center;
+}
+footer .logo-img {
+  max-width: 60px;
+  padding-right: 2rem;
+}
+footer p {
+  color: white;
+}
