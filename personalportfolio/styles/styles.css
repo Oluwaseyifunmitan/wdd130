@@ -86,13 +86,11 @@ main {
   grid-template-rows: min-content;
   place-items: center;
   padding: 5rem;
-  /* margin-left: 10rem; */
   font-size: 1.75rem;
 }
 .hero-text {
   padding-right: 5rem;
   margin: 2rem;
-  /* margin-right: 5rem; */
 }
 .hero-text h1 {
   font-family: var(--heading-font);
