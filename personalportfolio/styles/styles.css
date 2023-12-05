@@ -183,15 +183,79 @@ footer p {
   grid-template-columns: 1fr;
   grid-template-rows: min-content;
   padding: 5rem;
+  margin-left: 5rem;
   font-size: 1.75rem;
+}
+.portfolio h1 {
+  margin-left: 8rem;
 }
 .portfolio-button {
   border: #023047 solid 2px;
   border-radius: 5px;
-  padding: 2rem;
+  background-color: #023047;
+  color: white;
+  padding: 15px;
+  margin: 2rem 8rem 0 0;
+  font-size: 1.5rem;
+  transition-property: transform, box-shadow;
+  transition-duration: .6s;
+}
+.portfolio-button:hover {
+  border: #023047 solid 2px;
+  border-radius: 5px;
+  background-color: white;
+  color: #023047;
+  cursor: pointer;
+  transform: scale(.9);
+  box-shadow: 0 3px 15px -2px;
+}
+.portfolio-heading {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  grid-template-rows: min-content;
+  margin-left: 8rem;
+  align-items: center;
 }
 
-/* .portfolio-heading h2 p{
-  padding: 2rem;
-  text-align: left;
-} */
+.portfolio-img {
+  max-width: 500px;
+  margin: 4rem;
+  border-radius: 5px;
+}
+.portfolio-pic {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content;
+  place-items: center;
+  margin: 4rem;
+}
+.line {
+  border-bottom: 1px solid #023047;
+  margin: 0;
+}
+.contact-section {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  margin: 0 4rem 8rem 17rem;
+  align-items: center;
+}
+.contact-section button {
+  border: #023047 solid 2px;
+  border-radius: 5px;
+  background-color: #023047;
+  color: white;
+  padding: 15px;
+  font-size: 1.5rem;
+  margin: 2rem 8rem 0 0;
+  transition-property: transform, box-shadow;
+  transition-duration: .6s;
+}
+.contact-section button:hover{
+  border: #023047 solid 2px;
+  border-radius: 5px;
+  background-color: white;
+  color: #023047;
+  cursor: pointer;
+  transform: scale(.9);
+  box-shadow: 0 3px 15px -2px;
+}
